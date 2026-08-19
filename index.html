@@ -20,15 +20,20 @@
                 max-width: 800px;
                 margin: 0 auto;
                 padding: 16px;
+                display: flex;
             }
             img {
                 width: 80px;
                 height: 80px;
                 
             }
+            .artigo-autor{
+                font-weight: bold;
+            }
 
         </style>
     </head>
+
     <body>
         <header>
         <h1>Meu blog tech</h1> 
@@ -39,9 +44,17 @@
             computador contendo chaves de código {/}. Do monitor, saem conexões de circuitos 
             integrando um lâmpada com sinal de exclamação, uma engrenagem, um microchip e uma nuvem,
              simbolizando ideias e curiosidades no desenvolvimento de software.">
+            <div> 
             <h2>meu primeiro post</h2>
             <p>por: melissa</p>
-            <p>boas-vindas ao meu novo blog! aqui vou compartilhardicas de programação e curiosidades da área da tecnologia.</p>
+            <p>boas-vindas ao meu novo blog! aqui vou compartilhar dicas de programação e curiosidades da área da tecnologia.</p>
+            <button>❤️ <span>0</span></button>
+            </div>
+    
         </main>
     </body>
- </html>
+ <script>
+    const botao = document.querySelector("button");
+    botao.addEventListener("click", botaoclicaado)
+
+ </script>
